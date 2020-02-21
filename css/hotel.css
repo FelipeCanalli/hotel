@@ -5,16 +5,16 @@ h1 {
 header img {
   width: 20%;
   height: auto;
-  margin-left: 1000px;
 }
 
 header {
   text-align: center;
-  background-image: url("../img/hotel6.jpg");
+  background-image: url("../img/fundo11.jpeg");
   /* para ocupar todo o tamanho da tela no cabeçalho */
   background-size: 100%;
-  background-position: 0 -560px;
+  background-position: 0 -250px;
   transition: ease 2s;
+  text-align: right;
 }
 
 footer .card-header {
@@ -30,4 +30,46 @@ footer .card-body {
   color: white;
   text-align: center;
   font-family: "Trebuchet MS";
+}
+
+#home1 {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 40px;
+  margin-bottom: 200px;
+  text-align: justify;
+}
+
+#home2 {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 40px;
+  text-align: justify;
+}
+
+#imgHome {
+  text-align: center;
+}
+
+#imgHome img {
+  width: 600px;
+  height: 350px;
+  margin: 0 20px;
+  transition: ease 1s;
+  opacity: 0.8;
+}
+#imgHome img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  cursor: grab;
+}
+
+#imgLazer img {
+  width: 200px;
+  height: 180px;
+  margin:10px;
+  cursor: zoom-in;
+  box
+}
+
+#imgLazer{
+  text-align: center;
 }
